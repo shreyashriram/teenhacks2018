@@ -41,6 +41,16 @@ class JobsHandler(webapp2.RequestHandler):
         template = jinja_environment.get_template('jobs.html')
         self.response.out.write(template.render())
 
+    def post(self):
+        job = self.request.get('jobTitle')
+        company = self.request.get('Company')
+        location = self.request.get('address')
+        emailinfo = self.request.get('email')
+        payrate = self.request.get('pay')
+        jobdescription = self.request.get('description')
+
+        new_job = job(jobTitle = job, companyName = company, location = location, email = emailinfo, pay = payrate, description = jobdescription)
+
 class AddJobsHandler(webapp2.RequestHandler):
     def get(self):
         template = jinja_environment.get_template('addJob.html')

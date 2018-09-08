@@ -28,6 +28,7 @@ class JOB_obj(ndb.Model):
     pay = ndb.StringProperty()
     description = ndb.StringProperty()
     tags = ndb.StringProperty(repeated = True)
+    id = ndb.IntegerProperty()
 
 
 
@@ -49,8 +50,16 @@ class JobsHandler(webapp2.RequestHandler):
         payrate = self.request.get('pay')
         jobdescription = self.request.get('description')
 
-        new_job = JOB_obj(jobTitle = job, companyName = company, location = location, email = emailinfo, pay = payrate, description = jobdescription)
+        new_job = JOB_obj(id = 1, jobTitle = job, companyName = company, location = location, email = emailinfo, pay = payrate, description = jobdescription)
         new_job.put()
+
+    def showJob(self):
+        query = JOB_obj.query(JOB_obj.id == 1)
+
+
+
+        template = jinja_environment.get_template('jobs.html')
+        self.response.out.write(template.render(jobTitle = job, companyName = company, location = location, email = emailinfo, pay = payrate, description = jobdescription))
 
 class AddJobsHandler(webapp2.RequestHandler):
     def get(self):

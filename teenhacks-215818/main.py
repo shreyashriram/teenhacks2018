@@ -30,6 +30,11 @@ class JobsHandler(webapp2.RequestHandler):
         template = jinja_environment.get_template('jobs.html')
         self.response.out.write(template.render())
 
+class AddJobsHandler(webapp2.RequestHandler):
+    def get(self):
+        template = jinja_environment.get_template('addJob.html')
+        self.response.out.write(template.render())
+
 class EduHandler(webapp2.RequestHandler):
     def get(self):
         template = jinja_environment.get_template('education.html')
@@ -43,6 +48,7 @@ class ResourcesHandler(webapp2.RequestHandler):
 app = webapp2.WSGIApplication([
     ('/', MainHandler),
     ('/jobs', JobsHandler),
+    ('/addJob', AddJobsHandler),
     ('/edu', EduHandler),
     ('/resources', ResourcesHandler)
 ], debug=True)

@@ -20,12 +20,12 @@ from google.appengine.ext import ndb
 template_directory = os.path.join(os.path.dirname(__file__),'templates')
 jinja_environment = jinja2.Environment(loader = jinja2.FileSystemLoader(template_directory))
 
-class job(ndb.Model):
+class JOB_obj(ndb.Model):
     jobTitle = ndb.StringProperty()
     companyName = ndb.StringProperty()
     location = ndb.StringProperty()
     email = ndb.StringProperty()
-    pay = ndb.FloatProperty()
+    pay = ndb.StringProperty()
     description = ndb.StringProperty()
     tags = ndb.StringProperty(repeated = True)
 
@@ -49,7 +49,7 @@ class JobsHandler(webapp2.RequestHandler):
         payrate = self.request.get('pay')
         jobdescription = self.request.get('description')
 
-        new_job = job(jobTitle = job, companyName = company, location = location, email = emailinfo, pay = payrate, description = jobdescription)
+        new_job = JOB_obj(jobTitle = job, companyName = company, location = location, email = emailinfo, pay = payrate, description = jobdescription)
 
 class AddJobsHandler(webapp2.RequestHandler):
     def get(self):

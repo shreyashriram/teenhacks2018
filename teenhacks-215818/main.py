@@ -20,6 +20,17 @@ from google.appengine.ext import ndb
 template_directory = os.path.join(os.path.dirname(__file__),'templates')
 jinja_environment = jinja2.Environment(loader = jinja2.FileSystemLoader(template_directory))
 
+class job(ndb.Model):
+    jobTitle = ndb.StringProperty()
+    companyName = ndb.StringProperty()
+    location = ndb.StringProperty()
+    email = ndb.StringProperty()
+    pay = ndb.FloatProperty()
+    description = ndb.StringProperty()
+    tags = ndb.StringProperty(repeated = True)
+
+
+
 class MainHandler(webapp2.RequestHandler):
     def get(self):
         template = jinja_environment.get_template('index.html')

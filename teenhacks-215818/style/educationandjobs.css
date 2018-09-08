@@ -8,6 +8,7 @@ font-size: 18px;
 }
 h3{
 
+<<<<<<< HEAD
 }
 
 #grid-container {
@@ -15,6 +16,8 @@ display: grid;
 grid-auto-columns: 50px;
 grid-gap: 10px;
 padding: 10px;
+=======
+>>>>>>> 60714f222b7dcad5a1d6aaf4d54cd1dedc1603eb
 }
 #grid-container> {
 text-align: center;

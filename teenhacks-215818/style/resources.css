@@ -1,0 +1,23 @@
+button{
+  background-color: #5c4682; /* Green */
+  width: 200px;
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  border-radius: 10px;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 28px;
+}
+
+h1{
+  font-size: 30px;
+}
+
+
+button:hover{
+  background-color: #685982;
+}

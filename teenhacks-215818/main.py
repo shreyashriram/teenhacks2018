@@ -53,13 +53,14 @@ class JobsHandler(webapp2.RequestHandler):
         new_job = JOB_obj(id = 1, jobTitle = job, companyName = company, location = location, email = emailinfo, pay = payrate, description = jobdescription)
         new_job.put()
 
-    # def showJob(self):
-    #     query = JOB_obj.query(JOB_obj.id == 1)
 
+        # query = JOB_obj.query(JOB_obj.id == 1)
+        # print(query)
+     def showJob(self):
+         query = JOB_obj.query(JOB_obj.id == 1)
+         template = jinja_environment.get_template('jobs.html')
+         self.response.out.write(template.render(query = query))
 
-
-        template = jinja_environment.get_template('jobs.html')
-        self.response.out.write(template.render(jobTitle = job, companyName = company, location = location, email = emailinfo, pay = payrate, description = jobdescription))
 
 class AddJobsHandler(webapp2.RequestHandler):
     def get(self):

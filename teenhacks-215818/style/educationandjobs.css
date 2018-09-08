@@ -15,9 +15,13 @@ button {
   display: inline-block;
   border: none;
 }
-
-.jumbotronJumbotron-fluid {
-  background-color: #F2F5EA;
+.addJob{
+  font-size: 20px;
+  padding: 15px 15px;
+  float: right;
+}
+.title{
+  background-color: #CADBC8;
   color: #4876A8;
   padding-top: 80px;
   padding-bottom: 80px;
@@ -35,10 +39,13 @@ h2 {
 button {
   padding: 10px 15px;
   font-family: 'Open Sans', sans-serif;
+  margin-left: 10px;
+  margin-right: 30px;
 }
 
 .button {
-  display: inline-block;
+  marginleft:none;
+  margin-right: 30px;
 }
 
 .card-img-top {
@@ -47,10 +54,12 @@ button {
 }
 
 .card {
+  vertical-align: top;
   height: 400px;
   width: 290px;
   /* margin: 4px 2px; */
   padding: 10px 15px;
   border: 1px grey;
   display: inline-block;
+  margin: 20px 15px;
 }

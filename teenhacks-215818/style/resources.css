@@ -1,5 +1,5 @@
 button{
-  background-color: #5c4682; /* Green */
+  background-color: #7BCCB5; /* Green */
   width: 200px;
   border: none;
   color: white;
@@ -12,23 +12,29 @@ button{
   font-family: 'Roboto', sans-serif;
   margin-bottom: 28px;
 }
-
+h3{  font-size: 50px;
+  font-family: 'Advent Pro', sans-serif;}
 h1{
   font-size: 30px;
+  font-family: 'Advent Pro', sans-serif;
+}
+h2{
+  font-size:18px;
+  font-family: 'Open Sans', sans-serif;
 }
 .Rtext{
   font-size: 10px;
 }
 
 button:hover{
-  background-color: #685982;
+  background-color: #7BCCB5;
 }
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto auto;
   grid-template-rows: 100px 300px;
   grid-gap: 50px;
-  background-color: #685982;
+  background-color: #98AFC7;
   padding: 20px;
 }
 .grid-container>div {

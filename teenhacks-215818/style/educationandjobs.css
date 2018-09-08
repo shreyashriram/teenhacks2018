@@ -23,9 +23,8 @@ button{
 .card{
   height:400px;
   width: 290px;
-  margin: 4px 2px;
+  /* margin: 4px 2px; */
   padding:10px 15px;
   border: 1px grey;
   display: inline-block;
-
 }

@@ -14,11 +14,16 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
-import webapp2, jinja2
+import webapp2, jinja2, os
+from google.appengine.ext import ndb
+
+template_directory = os.path.join(os.path.dirname(__file__),'templates')
+jinja_environment = jinja2.Environment(loader = jinja2.FileSystemLoader(template_directory))
 
 class MainHandler(webapp2.RequestHandler):
     def get(self):
-        self.response.write('Hello world!')
+        template = jinja_environment.get_template('index.html')
+        self.response.out.write(template.render())
 
 app = webapp2.WSGIApplication([
     ('/', MainHandler)

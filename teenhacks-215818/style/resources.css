@@ -1,5 +1,5 @@
 button{
-  background-color: #7BCCB5; /* Green */
+  background-color: #C8d7db; /* Green */
   width: 200px;
   border: none;
   color: white;
@@ -11,6 +11,9 @@ button{
   border-radius: 10px;
   font-family: 'Roboto', sans-serif;
   margin-bottom: 28px;
+}
+body{
+  background-color: #F2F5EA;
 }
 h3{  font-size: 50px;
   font-family: 'Advent Pro', sans-serif;}
@@ -27,18 +30,18 @@ h2{
 }
 
 button:hover{
-  background-color: #7BCCB5;
+  background-color: #C8d7db;
 }
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto auto;
   grid-template-rows: 100px 300px;
   grid-gap: 50px;
-  background-color: #98AFC7;
+  background-color: #CADBC8;
   padding: 20px;
 }
 .grid-container>div {
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color:#F2F5EA;
   text-align: center;
   padding:20px 0;
   font-size: 30px;

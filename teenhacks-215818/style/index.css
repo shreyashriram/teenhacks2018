@@ -27,15 +27,25 @@ button:hover {
 }
 
 button {
-  width: 150px;
-  padding: 20px 15px;
+  width:20em;
+  /* padding: 40px 70px; */
+  height: 130px;
+  width: 680px;
   background-color: transparent;
   display: inline-block;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  font-size: 35px;
+  font-family: 'Advent Pro', sans-serif;
+  font-weight: normal;
+  color: #F2F5EA;
+
 }
 
-.indexButtons {
+.container {
   width:100%;
-  text-align: center;
+  text-align:center;
+
 }
 .ibutton{
   display: inline-block;

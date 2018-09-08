@@ -5,6 +5,7 @@
     <title>Teen Hacks</title>
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="index.css">
   </head>
 
   <header>
@@ -12,13 +13,15 @@
   </header>
 
   <body>
+
     <form action="/jobs" method="get">
-        <<button type="button" class="btn btn-outline-light">Jobs</button>
+        <button onclick="/">Jobs</button>
     </form>
     <form action="/edu" method="get">
-        <button type="button" class="btn btn-outline-light">Education</button>
+        <button onclick="/edu">Education</button>
     </form>
-        <button type="button" class="btn btn-outline-light" a href="/resources">Resources</button>
+    <form action="/resources" method="get">
+        <button onclick="/resources">Resources</button>
     </form>
   </body>
 </html>

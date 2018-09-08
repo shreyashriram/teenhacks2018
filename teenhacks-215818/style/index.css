@@ -1,5 +1,28 @@
-body {background-color: green;
+body {background-color: #91A7BF;
 }
 h1{
   font-family: 'Advent Pro', sans-serif;
+}
+body {
+    background-image: url("background.png");
+    background-repeat: no-repeat;
+}
+header{
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 130px;
+    color: white;
+    text-align: center;
+}
+button:hover{
+  background-color:#F2F5EA;
+  color:#4876A8;
+}
+button{
+  width:150px;
+  padding: 20px 15px;
+  background-color: transparent;
+  display:inline-block;
+}
+.indexButtons{
+  display: inline-block;
 }

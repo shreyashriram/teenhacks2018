@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <link  rel="stylesheet" href="../style/educationandjobs.css">
+    <link  rel="stylesheet" href="../style/addcompany.css">
     <link href="https://fonts.googleapis.com/css?family=Advent+Pro|Open+Sans" rel="stylesheet">
     <title>Add a Job</title>
   </head>
@@ -10,42 +10,38 @@
   <body>
     <form action="/jobs?job=jobTitle&company=Company&location=address&emailinfo=email&payrate=pay&jobdescription=description" method="post">
         <h2>Job Title:</h2>
-        <br>
+
         <input type="text" name="jobTitle" required>
         <br>
 
         <h2>Company:</h2>
-        <br>
+
         <input type="text" name="Company" required>
         <br>
 
         <h2>Location(Address):</h2>
-        <br>
+
         <input type="text" name="address" required>
         <br>
 
         <h2>Contact Email:</h2>
-        <br>
+
         <input type="text" name="email" required>
         <br>
 
         <h2>Hourly Pay:</h2>
-        <br>
+
         <input type="text" name="pay"required>
         <br>
 
         <h2>Job Description:</h2>
-        <br>
+
         <textarea rows="4" cols="50" name="description" placeholder="Describe job hours, duties, and any requirements. " required></textarea>
         <br>
 
         <h2>Select any that apply:</h2>
         <br>
-        <h2>
-        <input type="checkbox" name="Internship" value="Internship">Internship<br>
-        <input type="checkbox" name="Full Time" value="Full Time">Full Time<br>
-        <input type="checkbox" name="Part Time" value="Part Time">Part Time<br>
-</h2>
+        
         <button type="submit" value="submit">Submit</button>
 
 

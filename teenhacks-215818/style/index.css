@@ -1,11 +1,15 @@
-body {
 body {background-color: #91A7BF;
 }
 h1{
   font-family: 'Advent Pro', sans-serif;
 }
+
 header{
     font-family: 'Advent Pro', sans-serif;
     font-size: 40px;
     color: white;
+<<<<<<< HEAD
+=======
+    text-align: center;
+>>>>>>> deab25d2e56b50e9783f7f8c0b5552e54ca7d195
 }

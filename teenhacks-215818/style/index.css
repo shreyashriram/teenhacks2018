@@ -13,10 +13,14 @@ header{
     color: white;
     text-align: center;
 }
+.indexButtons{
+  display:inline-block;
+}
 button:hover{
   background-color:#F2F5EA;
   color:#4876A8;
 }
+
 button{
   width:150px;
   padding: 20px 15px;

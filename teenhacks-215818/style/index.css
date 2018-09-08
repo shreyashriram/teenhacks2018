@@ -3,7 +3,10 @@ body {background-color: #91A7BF;
 h1{
   font-family: 'Advent Pro', sans-serif;
 }
-
+body {
+    background-image: url("background.png");
+    background-repeat: no-repeat;
+}
 header{
     font-family: 'Advent Pro', sans-serif;
     font-size: 130px;

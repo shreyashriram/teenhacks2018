@@ -8,4 +8,26 @@ font-size: 18px;
 }
 h3{
 
+<<<<<<< HEAD
 }
+<<<<<<< HEAD
+
+#grid-container {
+display: grid;
+grid-auto-columns: 50px;
+grid-gap: 10px;
+padding: 10px;
+=======
+>>>>>>> 60714f222b7dcad5a1d6aaf4d54cd1dedc1603eb
+}
+#grid-container> {
+text-align: center;
+padding:20px 0;}
+=======
+.card{
+  margin: 4px 2px;
+  padding:10px 15px;
+  border: thin;
+  display: inline-block;
+}
+>>>>>>> f476a77573bd30bc1d342c3d058e00c494e23d2d

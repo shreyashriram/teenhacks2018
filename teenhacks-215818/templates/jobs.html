@@ -13,21 +13,21 @@
 
 <body>
   <div class="button">
-    <form action="/addJob" method="get">
-      <button onclick="/addJob">Add A Job</button>
-    </form>
     <form action="/" method="get">
       <button onclick="/">BACK</button>
     </form>
   </div>
-  <div class="jumbotron jumbotron-fluid">
+  <div class="title">
     <div class="container">
       <h1 class="display-4">Jobs & Opportunities</h1>
       <p class="lead">Find jobs that openly support undocumented immigrants.</p>
     </div>
   </div>
-
-
+  <div class="addJob">
+    <form action="/addJob" method="get">
+      <button onclick="/addJob">Add A Job</button>
+    </form>
+  </div>
   <div class="card" style="width: 20rem;">
     <img class="card-img-top" src="../style/gwclogo.png" alt="gwclogo">
     <h5 class="card-title">Girls Who Code</h5>
@@ -53,7 +53,7 @@
   {{pay}}
   {{description}} -->
     <div class="card" style="width: 20rem;">
-      <img class="card-img-top" src="../style/lyftlogo.png" alt="lyftlogo">
+      <img class="card-img-top" src="../style/" alt="">
         <h5 class="card-title">{{companyName}}</h5>
         <h6 class="card-text">{{jobTitle}}<h6>
         <p class="card-text">{{description}}</p>

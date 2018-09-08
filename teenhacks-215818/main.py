@@ -53,8 +53,8 @@ class JobsHandler(webapp2.RequestHandler):
         new_job = JOB_obj(id = 1, jobTitle = job, companyName = company, location = location, email = emailinfo, pay = payrate, description = jobdescription)
         new_job.put()
 
-    def showJob(self):
-        query = JOB_obj.query(JOB_obj.id == 1)
+    # def showJob(self):
+    #     query = JOB_obj.query(JOB_obj.id == 1)
 
 
 

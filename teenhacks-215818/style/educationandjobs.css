@@ -10,6 +10,7 @@ h3{
 
 <<<<<<< HEAD
 }
+<<<<<<< HEAD
 
 #grid-container {
 display: grid;
@@ -22,3 +23,11 @@ padding: 10px;
 #grid-container> {
 text-align: center;
 padding:20px 0;}
+=======
+.card{
+  margin: 4px 2px;
+  padding:10px 15px;
+  border: thin;
+  display: inline-block;
+}
+>>>>>>> f476a77573bd30bc1d342c3d058e00c494e23d2d

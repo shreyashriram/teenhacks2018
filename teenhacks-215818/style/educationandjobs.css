@@ -1,4 +1,7 @@
+body{
+  background-color: #8fbc89;
 
+}
 h1{
 font-family: 'Advent Pro', sans-serif;
 }
@@ -6,11 +9,23 @@ h2{
 font-family: 'Open Sans', sans-serif;
 font-size: 18px;
 }
-
-
+button{
+  padding:10px 15px;
+  font-family:'Open Sans', sans-serif;
+}
+.button{
+  display:inline-block;
+}
+.card-img-top{
+  height:160px;
+  width:290px;
+}
 .card{
+  height:400px;
+  width: 290px;
   margin: 4px 2px;
   padding:10px 15px;
-  border: thin;
+  border: 1px grey;
   display: inline-block;
+
 }

@@ -50,6 +50,7 @@ class JobsHandler(webapp2.RequestHandler):
         jobdescription = self.request.get('description')
 
         new_job = JOB_obj(jobTitle = job, companyName = company, location = location, email = emailinfo, pay = payrate, description = jobdescription)
+        new_job.put()
 
 class AddJobsHandler(webapp2.RequestHandler):
     def get(self):

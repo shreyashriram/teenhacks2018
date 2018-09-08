@@ -9,7 +9,11 @@ body {
 }
 header{
     font-family: 'Advent Pro', sans-serif;
+<<<<<<< HEAD
+    font-size: 100px;
+=======
     font-size: 130px;
+>>>>>>> 2d1c0a15cee8ea00835d06e45ec0ad26aab9feb5
     color: white;
     text-align: center;
 }

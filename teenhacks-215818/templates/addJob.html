@@ -3,12 +3,11 @@
   <head>
     <meta charset="utf-8">
     <link  rel="stylesheet" href="../style/educationandjobs.css">
-    <title>Add A Job</title>
+    <link href="https://fonts.googleapis.com/css?family=Advent+Pro|Open+Sans" rel="stylesheet">
+    <title>Add a Job</title>
   </head>
+  <header> <h1>Add a Job Opportunity </h1></header>
   <body>
-    <form action="/jobs" method="get">
-      <button onclick="/jobs">BACK</button>
-    </form>
     <form action="/jobs?job=jobTitle&company=Company&location=address&emailinfo=email&payrate=pay&jobdescription=description" method="post">
         <h2>Job Title:</h2>
         <br>
@@ -51,6 +50,9 @@
 
 
 
+    </form>
+    <form action="/jobs" method="get">
+      <button onclick="/jobs">BACK</button>
     </form>
   </body>
 </html>

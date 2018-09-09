@@ -1,5 +1,8 @@
 body {
-  background-color: #F2F5EA;
+  /* background-color: #F2F5EA; */
+  background-image: url("background.png");
+  color: #4876A8;
+
 }
 
 button:hover {
@@ -13,7 +16,9 @@ button {
   background-color: transparent;
   color: #4876A8;
   display: inline-block;
-  border: none;
+  outline-color: #F2F5EA;
+  outline-width: thick;
+   border-radius: 15px;
 }
 
 .jumbotronJumbotron-fluid {
@@ -27,6 +32,8 @@ h1 {
   font-family: 'Advent Pro', sans-serif;
   text-align: center;
   font-size: 50px;
+  color: #F2F5EA;
+
 }
 
 h2 {
@@ -38,12 +45,15 @@ button {
   padding: 10px 15px;
   font-family: 'Open Sans', sans-serif;
   font-size: 20px;
+  outline-color: #F2F5EA;
 
 }
 
 .button {
   display:inline-block;
   font-size: 40px;
+  outline-color: #F2F5EA;
+
 }
 
 .card-img-top {
@@ -62,6 +72,8 @@ button {
 
 form{
   text-align: center;
+  color: #F2F5EA;
+  font-weight: lighter;
 }
 
 input{

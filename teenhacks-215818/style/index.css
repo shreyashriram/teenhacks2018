@@ -29,7 +29,7 @@ button:hover {
 }
 
 button {
-  width:20em;
+  width: 20em;
   /* padding: 40px 70px; */
   height: 130px;
   width: 680px;
@@ -41,14 +41,13 @@ button {
   font-family: 'Advent Pro', sans-serif;
   font-weight: normal;
   color: #F2F5EA;
-
 }
 
 .container {
-  width:100%;
-  text-align:center;
-
+  width: 100%;
+  text-align: center;
 }
-.ibutton{
+
+.ibutton {
   display: inline-block;
 }

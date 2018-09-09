@@ -3,30 +3,42 @@ body {
 }
 
 button:hover {
-  background-color: #4876A8;
-  color: #F2F5EA;
+  background-color: #F2F5EA;
+  color: #4876A8;
 }
 
 button {
   width: 150px;
   padding: 20px 15px;
   background-color: transparent;
-  color: #4876A8;
-  display: inline-block;
+  color: #F2F5EA;
   border: none;
+  display: inline-block;
+
 }
 
 .addJob {
   font-size: 20px;
   padding: 15px 15px;
   float: right;
+  font-family: 'Advent Pro', sans-serif;
+
+
 }
+<<<<<<< HEAD
 
 .title {
   background-color: #CADBC8;
   color: #4876A8;
+=======
+.title{
+  /* background-color: #CADBC8; */
+  background-image: url("background.png");
+  color: #F2F5EA;
+>>>>>>> 55d40432012b2db27f0d7309cd84ca228740db3e
   padding-top: 80px;
   padding-bottom: 80px;
+
 }
 
 h1 {
@@ -40,14 +52,24 @@ h2 {
 
 button {
   padding: 10px 15px;
-  font-family: 'Open Sans', sans-serif;
+  background-color: #4876A8;
+  font-family: 'Advent Pro', sans-serif;
   margin-left: 10px;
   margin-right: 30px;
+  font-size: 30px;
+
+
 }
 
 .button {
+<<<<<<< HEAD
   marginleft: none;
   margin-right: 30px;
+=======
+  /* marginleft:none; */
+  /* margin-right: 30px; */
+
+>>>>>>> 55d40432012b2db27f0d7309cd84ca228740db3e
 }
 
 .card-img-top {
@@ -64,6 +86,12 @@ button {
   border: 1px grey;
   display: inline-block;
   margin: 20px 15px;
+  border-radius: 15px;
+}
+
+#poop{
+  border-radius: 15px;
+
 }
 
 footer {

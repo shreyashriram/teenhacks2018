@@ -1,5 +1,5 @@
 button{
-  background-color: #C8d7db; /* Green */
+  background-color: #457180; /* Green */
   width: 200px;
   border: none;
   color: white;
@@ -16,14 +16,17 @@ body{
   background-color: #F2F5EA;
 }
 h3{  font-size: 50px;
-  font-family: 'Advent Pro', sans-serif;}
+  font-family: 'Advent Pro', sans-serif;
+  color: #457180;}
 h1{
   font-size: 30px;
   font-family: 'Advent Pro', sans-serif;
+  color: #457180;
 }
 h2{
   font-size:18px;
   font-family: 'Open Sans', sans-serif;
+  color: #457180;
 }
 .Rtext{
   font-size: 10px;

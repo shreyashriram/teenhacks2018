@@ -52,6 +52,8 @@ class JobsHandler(webapp2.RequestHandler):
 
         new_job = JOB_obj(id = 1, jobTitle = job, companyName = company, location = location, email = emailinfo, pay = payrate, description = jobdescription)
         new_job.put()
+        template = jinja_environment.get_template('jobs.html')
+        self.response.out.write(template.render(jobTitle = job, companyName = company, location = location, email = emailinfo, pay = payrate, description = jobdescription))
 
 
         # query = JOB_obj.query(JOB_obj.id == 1)

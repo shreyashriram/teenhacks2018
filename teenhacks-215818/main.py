@@ -56,10 +56,10 @@ class JobsHandler(webapp2.RequestHandler):
 
         # query = JOB_obj.query(JOB_obj.id == 1)
         # print(query)
-     def showJob(self):
-         query = JOB_obj.query(JOB_obj.id == 1)
-         template = jinja_environment.get_template('jobs.html')
-         self.response.out.write(template.render(query = query))
+     # def showJob(self):
+     #     query = JOB_obj.query(JOB_obj.id == 1)
+     #     template = jinja_environment.get_template('jobs.html')
+     #     self.response.out.write(template.render(query = query))
 
 
 class AddJobsHandler(webapp2.RequestHandler):

@@ -19,7 +19,9 @@ header {
   text-align: center;
 }
 
-
+#bio {
+  font-size: 25px;
+}
 
 button:hover {
   background-color: #F2F5EA;
